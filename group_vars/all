@@ -1,0 +1,14 @@
+---
+mysql_rpm: mysql57-community-release-el7-7.noarch.rpm
+mysql_url: https://dev.mysql.com/get/{{ mysql_rpm }}
+mysql_port: 3306
+mysql_root_password: 0!cdXg#;(DT! 
+mysql_socket: /var/lib/mysql/mysql.sock 
+mysql_datadir: /var/lib/mysql
+mysql_log: /var/lig/mysqld.log
+mysql_pid: /var/run/mysqld/mysqld.pid 
+mysql_user: mysql
+
+db_cred:
+  - { user: 'mytestuser1', db: 'mytestdb1', pass: '6_CaNCEL?2' }
+  - { user: 'mytestuser2', db: 'mytestdb2', pass: '13LAVeRNA=' }
